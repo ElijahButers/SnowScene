@@ -66,6 +66,7 @@ class ViewController: UIViewController {
     let rect = CGRect(x: 0.0, y: 100.0, width: view.bounds.width, height: 50.0)
     let emitter = CAEmitterLayer()
     emitter.frame = rect
+    emitter.emitterShape = kCAEmitterLayerRectangle
     view.layer.addSublayer(emitter)
     
     
