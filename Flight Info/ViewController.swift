@@ -62,6 +62,12 @@ class ViewController: UIViewController {
     //start rotating the flights
     changeFlightDataTo(londonToParis)
     
+    //emitter layer
+    let rect = CGRect(x: 0.0, y: 100.0, width: view.bounds.width, height: 50.0)
+    let emitter = CAEmitterLayer()
+    emitter.frame = rect
+    view.layer.addSublayer(emitter)
+    
     
   }
   
