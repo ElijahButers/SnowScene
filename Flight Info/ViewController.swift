@@ -67,9 +67,16 @@ class ViewController: UIViewController {
     let emitter = CAEmitterLayer()
     emitter.frame = rect
     emitter.emitterShape = kCAEmitterLayerRectangle
+    emitter.emitterPosition = CGPoint(x: rect.width/2, y: rect.height/2)
+    emitter.emitterSize = rect.size
     view.layer.addSublayer(emitter)
     
-    
+    //emitter cell
+    let emitterCell = CAEmitterCell()
+    emitterCell.contents = UIImage(named: "flake.png")!.cgImage
+    emitterCell.birthRate = 20
+    emitterCell.lifetime = 3.5
+    emitter.emitterCells = [emitterCell]
   }
   
   //MARK: custom methods
