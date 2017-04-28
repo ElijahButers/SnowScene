@@ -71,7 +71,9 @@ class ViewController: UIViewController {
     emitter.emitterSize = rect.size
     view.layer.addSublayer(emitter)
     
-    
+    //emitter cell
+    let emitterCell = CAEmitterCell()
+    emitterCell.contents = UIImage(named: "flake.png")!.cgImage
   }
   
   //MARK: custom methods
