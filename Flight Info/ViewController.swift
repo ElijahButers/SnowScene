@@ -74,6 +74,9 @@ class ViewController: UIViewController {
     //emitter cell
     let emitterCell = CAEmitterCell()
     emitterCell.contents = UIImage(named: "flake.png")!.cgImage
+    emitterCell.birthRate = 20
+    emitterCell.lifetime = 3.5
+    emitter.emitterCells = [emitterCell]
   }
   
   //MARK: custom methods
