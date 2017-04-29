@@ -81,6 +81,8 @@ class ViewController: UIViewController {
     //particle control
     emitterCell.yAcceleration = 70.0
     emitterCell.xAcceleration = 10.0
+    emitterCell.velocity = 20.0
+    emitterCell.emissionLongitude = CGFloat(-M_PI_2)
   }
   
   //MARK: custom methods
