@@ -80,6 +80,7 @@ class ViewController: UIViewController {
     
     //particle control
     emitterCell.yAcceleration = 70.0
+    emitterCell.xAcceleration = 10.0
   }
   
   //MARK: custom methods
