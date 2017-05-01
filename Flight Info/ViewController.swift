@@ -95,6 +95,7 @@ class ViewController: UIViewController {
     //particle appearance
     emitterCell.scale = 0.8
     emitterCell.scaleRange = 0.8
+    emitterCell.scaleSpeed = -0.15
   }
   
   //MARK: custom methods
