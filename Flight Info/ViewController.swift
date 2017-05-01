@@ -85,6 +85,9 @@ class ViewController: UIViewController {
     emitterCell.emissionLongitude = CGFloat(-M_PI_2)
     emitterCell.velocityRange = 200.0
     emitterCell.emissionRange = CGFloat(M_PI_2)
+    
+    //particle color
+    emitterCell.color = UIColor(red: 0.9, green: 1.0, blue: 1.0, alpha: 1.0).cgColor
   }
   
   //MARK: custom methods
