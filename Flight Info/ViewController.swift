@@ -88,6 +88,9 @@ class ViewController: UIViewController {
     
     //particle color
     emitterCell.color = UIColor(red: 0.9, green: 1.0, blue: 1.0, alpha: 1.0).cgColor
+    emitterCell.redRange = 0.1
+    emitterCell.greenRange = 0.1
+    emitterCell.blueRange = 0.1
   }
   
   //MARK: custom methods
