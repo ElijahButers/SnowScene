@@ -91,6 +91,10 @@ class ViewController: UIViewController {
     emitterCell.redRange = 0.1
     emitterCell.greenRange = 0.1
     emitterCell.blueRange = 0.1
+    
+    //particle appearance
+    emitterCell.scale = 0.8
+    emitterCell.scaleRange = 0.8
   }
   
   //MARK: custom methods
