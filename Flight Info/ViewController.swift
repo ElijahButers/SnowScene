@@ -98,6 +98,7 @@ class ViewController: UIViewController {
     emitterCell.scaleSpeed = -0.15
     emitterCell.alphaRange = 0.75
     emitterCell.alphaSpeed = -0.15
+    emitterCell.lifetimeRange = 1.0
   }
   
   //MARK: custom methods
