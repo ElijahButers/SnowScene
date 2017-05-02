@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     emitterCell.yAcceleration = 70.0
     emitterCell.xAcceleration = 10.0
     emitterCell.velocity = 20.0
-    emitterCell.emissionLongitude = CGFloat(-M_PI_2)
+    emitterCell.emissionLongitude = CGFloat(-M_PI)
     emitterCell.velocityRange = 200.0
     emitterCell.emissionRange = CGFloat(M_PI_2)
     
